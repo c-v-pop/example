@@ -1,9 +1,12 @@
 <?php
 
+// \Illuminate\Support\Facades\Mail::to('nike2live@yahoo.com')->send(new JobPosted());
+
 use App\Http\Controllers\JobController;
 use App\Http\Controllers\RegisteredUserController;
 use App\Http\Controllers\SessionController;
 use Illuminate\Support\Facades\Route;
+
 
 Route::view('/', 'home');
 Route::view('/contact', 'contact');
