@@ -2,9 +2,10 @@
     {{ $job->title }}
 </h2>
 
-<p>   
-    Congrats your job is now live!
-</p>
 <p>
-    <a href="{{ url('/jobs/' . $job->id) }}">View Your Listing</a>
+    Congrats! Your job is now live on our website.
+</p>
+
+<p>
+    <a href="{{ url('/jobs/' . $job->id) }}">View Your Job Listing</a>
 </p>
